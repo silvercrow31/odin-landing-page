@@ -1,0 +1,32 @@
+/* COMMON PROPERTIES */
+* {
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 1em;
+}
+/* color properties for header, hero and footer (dark background) */
+.header,
+.container-hero,
+.footer,
+.header-links {
+    background-color: #1f2937;
+    color: #f9faf8;
+}
+/* all these containers will receive display flex */
+.container-hero,
+.header,
+.container-items,
+.container-call-to-action,
+.header-links {
+    display: flex;
+}
+
+/* HEADER SECTION */
+.logo {
+    font-size: 24px ;
+    font-weight: bolder;
+}
+.header {
+    justify-content: space-between;
+}
+
+/* HERO SECTION */
