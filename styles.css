@@ -1,18 +1,25 @@
 /* COMMON PROPERTIES */
 * {
     font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    padding: 1em;
+    padding: 8px;
+}
+body,
+html {
+    background-color: white;
+    margin: 0;
+    padding: 0;
 }
 /* color properties for header, hero and footer (dark background) */
 .header,
-.container-hero,
+.hero,
 .footer,
+.main-container,
 .header-links {
     background-color: #1f2937;
     color: #f9faf8;
 }
 /* all these containers will receive display flex */
-.container-hero,
+.hero,
 .header,
 .container-items,
 .container-call-to-action,
@@ -20,13 +27,58 @@
     display: flex;
 }
 
+.main-container {
+    padding: 0 180px;
+}
 /* HEADER SECTION */
 .logo {
     font-size: 24px ;
     font-weight: bolder;
 }
 .header {
+    /* width: 70%; */
+    /* justify-self: center; */
     justify-content: space-between;
 }
 
 /* HERO SECTION */
+.hero {
+    /* width: 70%; */
+    justify-self: center;
+    background-color: transparent;
+}
+.hero-title {
+    font-size: 48px;
+    font-weight: 900;
+}
+.hero-subtext {
+font-size: 18px;
+color: #e5e7eb;
+}
+button {
+    margin: 8px;
+}
+.image img {
+    max-width: 100%;
+}
+
+/* QUOTE */
+.container-quote {
+    background-color: #e5e7eb;
+}
+.quote {
+    background-color: transparent;
+    font-size: 36px;
+    font-weight: light;
+    color: #1f2937;
+    font-style: italic;
+    padding: 180px 180px 0 180px;
+}
+.quote-end {
+    background-color: transparent;
+    font-size: 36px;
+    font-weight: bold;
+    color: #1f2937;
+    padding: 0 180px 180px 180px;
+    text-align: end;
+}
