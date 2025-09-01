@@ -120,3 +120,20 @@ button {
     padding: 0 180px 180px 180px;
     text-align: end;
 }
+
+/* CALL TO ACTION SECTION */
+.container-call-to-action {
+    margin: 80px 180px;
+    padding: 40px 100px;
+    justify-content: space-between;
+}
+.container-call-to-action,
+.container-call-to-action button {
+    background-color: #3882f6;
+    color: white;
+    border: 2px solid white;
+}
+
+.cta-title {
+    font-weight: bold;
+}
