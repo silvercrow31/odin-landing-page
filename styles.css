@@ -29,6 +29,14 @@ html {
     display: flex;
 }
 
+button {
+    background-color: #3882f6;
+    color: white;
+    border: 2px solid white;
+    border-radius: 4px;
+    padding: 8px 32px;
+}
+
 .main-container {
     padding: 0 180px;
 }
@@ -98,6 +106,7 @@ button {
 .item img {
     padding: 0;
     border: 4px solid #3882f6;
+    border-radius: 12px;
     width:100%;
 }
 /* QUOTE SECTION */
@@ -127,13 +136,15 @@ button {
     padding: 40px 100px;
     justify-content: space-between;
 }
-.container-call-to-action,
-.container-call-to-action button {
+.container-call-to-action{
     background-color: #3882f6;
     color: white;
     border: 2px solid white;
+    border-radius: 12px;
 }
-
+.container-call-to-action button {
+    align-self: center;
+}
 .cta-title {
     font-weight: bold;
 }
