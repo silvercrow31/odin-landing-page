@@ -148,3 +148,10 @@ button {
 .cta-title {
     font-weight: bold;
 }
+
+/* FOOTER SECTION */
+
+.footer {
+    text-align: center;
+    padding: 24px 0;
+}
